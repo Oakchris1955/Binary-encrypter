@@ -24,10 +24,10 @@ try:
 
     print('The output is:', out)
     
-    cl.main()
+    cl.main(5)
 except FileNotFoundError:
     print('Error. Encrypted file not found')
-    cl.main()
+    cl.main(5)
 except Exception as error:
     print('Error. ',error)
-    cl.main()
+    cl.main(5)
