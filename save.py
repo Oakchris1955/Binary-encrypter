@@ -15,4 +15,4 @@ for con in in_list:
 
 with open(filename+'.dll','wb') as f:
     pickle.dump(out_list, f)
-cl.main()
+cl.main(5)
