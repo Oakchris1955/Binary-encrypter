@@ -1,4 +1,4 @@
-import pickle, closenot as cl
+import pickle, close_notification as cl
 in_list = []
 out_list = []
 inp = input('Enter characters: ')
